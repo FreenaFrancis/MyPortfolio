@@ -1,0 +1,128 @@
+/* General Section Styling */
+.skills-section {
+   
+    color: #ffffff;
+    padding: 3rem 1rem;
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the section */
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+  
+  /* Grid for Main Skill Categories */
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .skill-category {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+    background: var(--color-bg-variant); /* Darker background for skill items */
+    padding: 30px 20px;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .skill-item:hover {
+    /* transform: scale(1.05); */
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    transform: translateY(-5px);
+
+  }
+  
+  .skill-item svg {
+    color: #00adb5; /* Add a consistent accent color for icons */
+  }
+  
+  .skill-item span {
+    margin-left: 12px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  /* Grid for Technologies */
+  .tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #333333; */
+    background: var(--color-bg-variant);
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid transparent;
+    /* transition: var(--transition); */
+  }
+  
+  .tech-item:hover {
+    /* transform: scale(1.05); */
+    background-color: #00adb5; /* Accent color on hover */
+    border-color: var(--color-primary-variant);
+    transform: translateY(-5px);
+  }
+  
+  .tech-item svg {
+    margin-right: 10px;
+    color: #ffffff; /* Ensure icons stay white within the tech items */
+  }
+  
+  @media (max-width: 768px) {
+    .skills-grid, .tech-grid {
+      flex-direction: column;
+    }
+  
+    .skill-item, .tech-item {
+      width: 100%;
+      justify-content: center;
+      margin: 8px 0;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .skills-grid, .tech-grid {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .skill-item, .tech-item {
+      min-width: 250px;
+    }
+  }
+  
+  h2{
+    color: var(--color-primary);
+  }
