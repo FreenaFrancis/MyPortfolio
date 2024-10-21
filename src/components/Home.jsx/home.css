@@ -45,7 +45,7 @@ header{
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
-    padding: 1rem 1.5rem 2.5rem 1rem;
+    /* padding: 1rem 1.5rem 2.5rem 1rem; */
 }
 
 .me>img{
@@ -62,24 +62,17 @@ header{
 }
 
 
-/* media query for medium devices */
-
-@media screen and (max-width: 1024px) {
-    header{
-        height: 60vh;
-    }
-}
-
-/* media query small devices */
-
+/* Media query for small devices */
 @media screen and (max-width: 600px) {
-    header{
+    header {
         height: 100vh;
     }
-    .header_socials,.scroll_down{
+    .home_social, .scroll_down {
         display: none;
     }
-    .me>img{
-        margin-top:2.5rem
+    .me {
+        width: 18rem; /* Adjust image size for small screens */
+        height: 25rem;
+        margin-top: 3rem;
     }
 }

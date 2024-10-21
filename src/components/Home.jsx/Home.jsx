@@ -18,9 +18,9 @@ function Home() {
 
     {/* social icons */}
     <div className="home_social">
-        <a href='https://www.linkedin.com/in/freena-francis' ><BsLinkedin/></a>
+        <a href='https://www.linkedin.com/in/freena-francis-/' ><BsLinkedin/></a>
         <a href='https://github.com/FreenaFrancis' ><BsGithub/></a>
-        <a href='' ><BsMedium/></a>
+        {/* <a href='' ><BsMedium/></a> */}
     </div>
     <div className="me">
         <img src={Me} alt='freena' style={{width:'25rem',marginRight:'-200rem'}}></img>

@@ -55,14 +55,6 @@ function Project() {
           <a href='https://github.com/FreenaFrancis/collegeSearch.git' className='project_github_btn'><span>Available on</span> <SiGithub size={20} style={{ color: '#181717' }} /></a>
         </article>
 
-        <article className='project_item'>
-          <div className="project_item_image">
-            <img src={coffee} alt='Coffee App'/>
-          </div>
-          <h3>Coffee App</h3>
-          <small className='text-light'>An app for coffee lovers to explore different types of coffee, view brewing methods, and find nearby coffee shops. Built using React and Node.js.</small><br/>
-          <a href='https://github.com/FreenaFrancis/coffee_ui.git' className='project_github_btn'><span>Available on</span> <SiGithub size={20} style={{ color: '#181717' }} /></a>
-        </article>
 
         <article className='project_item'>
           <div className="project_item_image">
@@ -72,8 +64,17 @@ function Project() {
           <small className='text-light'>An online store platform built in MERN stack where users can browse products, manage their cart, and place orders with payment integration.</small><br></br>
           <a href='https://github.com/FreenaFrancis/E-commerce.git' className='project_github_btn'><span>Available on</span> <SiGithub size={20} style={{ color: '#181717' }} /></a>
         </article>
-
+        
         <article className='project_item'>
+          <div className="project_item_image">
+            <img src={coffee} alt='Coffee App'/>
+          </div>
+          <h3>Coffee App</h3>
+          <small className='text-light'>An app for coffee lovers to explore different types of coffee, view brewing methods, and find nearby coffee shops. Built using React and Node.js.</small><br/>
+          <a href='https://github.com/FreenaFrancis/coffee_ui.git' className='project_github_btn'><span>Available on</span> <SiGithub size={20} style={{ color: '#181717' }} /></a>
+        </article>
+
+        {/* <article className='project_item'>
           <div className="project_item_image">
             <img src={real} alt='Real Estate UI'/>
           </div>
@@ -98,7 +99,7 @@ function Project() {
           <h3>Todo App</h3>
           <small className='text-light'>A simple but effective Todo app built using React, where users can add, update, and delete tasks to manage their daily activities.</small><br></br>
           <a href='https://github.com/FreenaFrancis/merntodo.git' className='project_github_btn'><span>Available on</span> <SiGithub size={20} style={{ color: '#181717' }} /></a>
-        </article>
+        </article> */}
       </div>
     </section>
   );

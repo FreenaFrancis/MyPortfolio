@@ -74,7 +74,7 @@ function Contact() {
           </article>
 
           <article className="contact_option">
-            <a href="https://www.linkedin.com/in/freena-francis" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/freena-francis-/" target="_blank" rel="noopener noreferrer">
               <BsLinkedin className="contact_option_icon" />
             </a>
           </article>
